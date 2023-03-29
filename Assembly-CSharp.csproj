@@ -36,8 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Timer.cs" />
-     <Compile Include="Assets\Scripts\Clock\Kello.cs" />
+     <Compile Include="Assets\Scripts\NumMesh.cs" />
+     <Compile Include="Assets\Scripts\NumMeshSetter.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -721,6 +721,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Clock.csproj">
+      <Project>{ae529d3c-0264-ed58-0421-0ed63d895a89}</Project>
+      <Name>Clock</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{3b136986-b8b7-f45c-eae3-1f956d03ab0f}</Project>
       <Name>UnityEditor.UI</Name>
