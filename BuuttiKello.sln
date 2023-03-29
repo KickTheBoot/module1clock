@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{10378106-01cb-7585-07d0-8d263d5678f9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock.csproj", "{ae529d3c-0264-ed58-0421-0ed63d895a89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.UI", "UnityEditor.UI.csproj", "{3b136986-b8b7-f45c-eae3-1f956d03ab0f}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10378106-01cb-7585-07d0-8d263d5678f9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10378106-01cb-7585-07d0-8d263d5678f9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ae529d3c-0264-ed58-0421-0ed63d895a89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ae529d3c-0264-ed58-0421-0ed63d895a89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3b136986-b8b7-f45c-eae3-1f956d03ab0f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3b136986-b8b7-f45c-eae3-1f956d03ab0f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
