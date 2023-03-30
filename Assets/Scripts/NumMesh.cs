@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
+[ExecuteInEditMode]
 public class NumMesh : MonoBehaviour
 {
     private int _number;
@@ -24,7 +26,6 @@ public class NumMesh : MonoBehaviour
 
         };
     Mesh mesh;
-
     void OnEnable()
     {
         mesh = new Mesh();
@@ -72,5 +73,11 @@ public class NumMesh : MonoBehaviour
         }
         if(mesh) mesh.uv = TransformedUVs;
     }
+
+    void OnDrawGizmos() 
+    {
+        Gizmos.DrawWireMesh(mesh, transform.position,transform.rotation, transform.localScale); 
+    }
+
 
 }
