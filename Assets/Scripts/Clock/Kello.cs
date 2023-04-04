@@ -75,6 +75,6 @@ public class Kello : KelloPohja
 
         HourH.rotation = Quaternion.Euler(0, 0, (Hour + DifferenceToUTC) * 30);
         MinH.rotation = Quaternion.Euler(0, 0, Min * 6);
-        SecH.rotation = Quaternion.Euler(0, 0, Mathf.LerpUnclamped((LastTick - 1) * 6, LastTick * 6, SecondHandAngleCurve.Evaluate(time - LastTick)));
+        SecH.rotation = Quaternion.Euler(0, 0, Mathf.LerpUnclamped(LastTick * 6, (LastTick+1) * 6, SecondHandAngleCurve.Evaluate(time - LastTick)));
     }
 }
